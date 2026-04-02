@@ -256,10 +256,10 @@ export default function App() {
                 </p>
               </div>
               <div className="mt-10 flex gap-6">
-                <a href="https://twitter.com/your-handle" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
+                <a href="https://x.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
                 <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Github size={20} /></a>
                 <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Linkedin size={20} /></a>
-                <a href="https://instagram.com/your-account" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
+                <a href="https://instagram.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
               </div>
             </div>
           </div>
