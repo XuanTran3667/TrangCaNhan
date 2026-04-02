@@ -29,16 +29,36 @@ export default function App() {
     }
   };
 
+  // --- BACKGROUND CONFIGURATION ---
+  // You can use a URL for an image (jpg, png, gif) or a video (mp4, webm).
+  const backgroundUrl = "https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=2000&auto=format&fit=crop"; 
+  // Example Video URL: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwlXH07IWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4"
+  
+  const isVideo = backgroundUrl.match(/\.(mp4|webm|ogg|mov)$/i) || backgroundUrl.includes("video");
+
   return (
     <main className="relative min-h-screen w-full bg-background selection:bg-white/20 selection:text-white">
-      {/* Fullscreen Image Background */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
-        <img
-          src="https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=2000&auto=format&fit=crop" 
-          alt="Cinematic Background"
-          className="h-full w-full object-cover opacity-60 scale-105"
-          referrerPolicy="no-referrer"
-        />
+      {/* Fullscreen Media Background */}
+      <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">
+        {isVideo ? (
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover opacity-50 scale-105 transition-opacity duration-1000"
+          >
+            <source src={backgroundUrl} type="video/mp4" />
+          </video>
+        ) : (
+          <img
+            src={backgroundUrl}
+            alt="Cinematic Background"
+            className="h-full w-full object-cover opacity-60 scale-105 transition-opacity duration-1000"
+            referrerPolicy="no-referrer"
+          />
+        )}
+        {/* Cinematic Overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/40 to-background" />
       </div>
 
@@ -150,29 +170,39 @@ export default function App() {
               {
                 title: "Aether OS",
                 category: "Interface Design",
-                image: "https://picsum.photos/seed/aether/1200/800",
-                description: "A minimalist operating system concept focused on deep work and cognitive clarity."
+                image: "https://picsum.photos/seed/aether/1200/800", // REPLACE_WITH_PROJECT_IMAGE_1
+                description: "A minimalist operating system concept focused on deep work and cognitive clarity.",
+                link: "https://your-project-link-1.com" // REPLACE_WITH_PROJECT_LINK_1
               },
               {
                 title: "Lumina",
                 category: "Productivity",
-                image: "https://picsum.photos/seed/lumina/1200/800",
-                description: "An AI-powered writing assistant that helps you find your voice in the noise."
+                image: "https://picsum.photos/seed/lumina/1200/800", // REPLACE_WITH_PROJECT_IMAGE_2
+                description: "An AI-powered writing assistant that helps you find your voice in the noise.",
+                link: "https://your-project-link-2.com" // REPLACE_WITH_PROJECT_LINK_2
               },
               {
                 title: "Silentium",
                 category: "Web Experience",
-                image: "https://picsum.photos/seed/silent/1200/800",
-                description: "An immersive audio-visual journey through the world's quietest places."
+                image: "https://picsum.photos/seed/silent/1200/800", // REPLACE_WITH_PROJECT_IMAGE_3
+                description: "An immersive audio-visual journey through the world's quietest places.",
+                link: "https://your-project-link-3.com" // REPLACE_WITH_PROJECT_LINK_3
               },
               {
                 title: "Vortex",
                 category: "Data Visualization",
-                image: "https://picsum.photos/seed/vortex/1200/800",
-                description: "Visualizing the flow of global information in real-time."
+                image: "https://picsum.photos/seed/vortex/1200/800", // REPLACE_WITH_PROJECT_IMAGE_4
+                description: "Visualizing the flow of global information in real-time.",
+                link: "https://your-project-link-4.com" // REPLACE_WITH_PROJECT_LINK_4
               }
             ].map((project, i) => (
-              <div key={i} className="group relative overflow-hidden rounded-3xl bg-white/5 border border-white/10 transition-all hover:border-white/20">
+              <a 
+                key={i} 
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group relative block overflow-hidden rounded-3xl bg-white/5 border border-white/10 transition-all hover:border-white/20"
+              >
                 <div className="aspect-[16/10] overflow-hidden">
                   <img 
                     src={project.image} 
@@ -191,7 +221,7 @@ export default function App() {
                     {project.description}
                   </p>
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
@@ -203,7 +233,7 @@ export default function App() {
           <div className="grid grid-cols-1 gap-16 md:grid-cols-2 items-center">
             <div className="relative aspect-square overflow-hidden rounded-3xl border border-white/10">
               <img 
-                src="https://picsum.photos/seed/profile/1000/1000" 
+                src="https://picsum.photos/seed/profile/1000/1000" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
                 className="h-full w-full object-cover grayscale opacity-80"
                 referrerPolicy="no-referrer"
@@ -226,10 +256,10 @@ export default function App() {
                 </p>
               </div>
               <div className="mt-10 flex gap-6">
-                <a href="#" className="text-foreground hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
-                <a href="#" className="text-foreground hover:text-muted-foreground transition-colors"><Github size={20} /></a>
-                <a href="#" className="text-foreground hover:text-muted-foreground transition-colors"><Linkedin size={20} /></a>
-                <a href="#" className="text-foreground hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
+                <a href="https://twitter.com/your-handle" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Github size={20} /></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Linkedin size={20} /></a>
+                <a href="https://instagram.com/your-account" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
               </div>
             </div>
           </div>
@@ -250,18 +280,24 @@ export default function App() {
 
           <div className="space-y-4">
             {[
-              { date: "Mar 24, 2026", title: "The Ethics of Attention in Digital Design" },
-              { date: "Feb 12, 2026", title: "Why Minimalism is Not Just About Less" },
-              { date: "Jan 05, 2026", title: "Building for the Quiet Rebels" },
-              { date: "Dec 18, 2025", title: "The Cinematic Web: Motion and Emotion" }
+              { date: "Mar 24, 2026", title: "The Ethics of Attention in Digital Design", link: "https://your-blog-post-1.com" },
+              { date: "Feb 12, 2026", title: "Why Minimalism is Not Just About Less", link: "https://your-blog-post-2.com" },
+              { date: "Jan 05, 2026", title: "Building for the Quiet Rebels", link: "https://your-blog-post-3.com" },
+              { date: "Dec 18, 2025", title: "The Cinematic Web: Motion and Emotion", link: "https://your-blog-post-4.com" }
             ].map((post, i) => (
-              <div key={i} className="group flex items-center justify-between border-b border-white/10 py-8 transition-colors hover:bg-white/[0.02] px-4 rounded-xl cursor-pointer">
+              <a 
+                key={i} 
+                href={post.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex items-center justify-between border-b border-white/10 py-8 transition-colors hover:bg-white/[0.02] px-4 rounded-xl cursor-pointer"
+              >
                 <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-12">
                   <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest">{post.date}</span>
                   <h3 className="text-xl md:text-2xl font-medium group-hover:translate-x-2 transition-transform duration-300" style={{ fontFamily: "'Instrument Serif', serif" }}>{post.title}</h3>
                 </div>
                 <ArrowRight size={20} className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1" />
-              </div>
+              </a>
             ))}
           </div>
         </div>
