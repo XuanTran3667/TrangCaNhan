@@ -75,7 +75,7 @@ export default function App() {
             style={{ fontFamily: "'Instrument Serif', serif" }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
-            Velorah<sup className="text-xs">®</sup>
+            Xuân Trần<sup className="text-xs">®</sup>
           </div>
 
           {/* Nav Links */}
@@ -129,8 +129,8 @@ export default function App() {
             className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-foreground sm:text-7xl md:text-8xl"
             style={{ fontFamily: "'Instrument Serif', serif" }}
           >
-            Where <em className="not-italic text-muted-foreground">dreams</em> rise{" "}
-            <em className="not-italic text-muted-foreground">through the silence.</em>
+            Xuân <em className="not-italic text-muted-foreground">Trần</em> {" "}
+            <em className="not-italic text-muted-foreground"></em>
           </h1>
 
           <p className="animate-fade-rise-delay mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
@@ -333,7 +333,7 @@ export default function App() {
       <footer className="relative z-10 border-t border-white/5 px-8 py-12">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 md:flex-row">
           <div className="text-2xl tracking-tight" style={{ fontFamily: "'Instrument Serif', serif" }}>
-            Velorah<sup className="text-xs">®</sup>
+            Xuân Trần<sup className="text-xs">®</sup>
           </div>
           <div className="text-sm text-muted-foreground">
             © 2026 Velorah Studio. All rights reserved.
