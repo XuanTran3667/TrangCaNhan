@@ -125,10 +125,10 @@ export default function App() {
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center isolate-auto">
         <div className="mx-auto max-w-7xl isolate-auto">
           <h1 
-  className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-white mix-blend-difference"
-  style={{ fontFamily: "'Instrument Serif', serif" }}
->
-            Xuân Trần {" "}
+             className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] bg-gradient-to-r from-white/80 via-transparent to-white/80 ..."
+               style={{ fontFamily: "'Instrument Serif', serif" }}
+          >
+             Xuân Trần {" "}
             <em className="not-italic text-white/70"></em>
           </h1>
 
