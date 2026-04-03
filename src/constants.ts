@@ -3,11 +3,11 @@ import { Github, Twitter, Linkedin, Instagram, Facebook, Youtube, Globe } from "
 // --- SOCIAL MEDIA CONFIGURATION ---
 // Replace these URLs with your actual profile links
 export const SOCIAL_LINKS = [
-  { name: "Twitter", url: "https://twitter.com/YOUR_USERNAME", icon: Twitter },
+  { name: "Twitter", url: "https://twitter.com/xuantran3667", icon: Twitter },
   { name: "Github", url: "https://github.com/YOUR_USERNAME", icon: Github },
   { name: "Linkedin", url: "https://linkedin.com/in/YOUR_USERNAME", icon: Linkedin },
-  { name: "Instagram", url: "https://instagram.com/YOUR_USERNAME", icon: Instagram },
-  { name: "Facebook", url: "https://facebook.com/YOUR_USERNAME", icon: Facebook },
+  { name: "Instagram", url: "https://instagram.com/xuantran3667", icon: Instagram },
+  { name: "Facebook", url: "https://facebook.com/xuantran3667", icon: Facebook },
   { name: "Youtube", url: "https://youtube.com/c/YOUR_CHANNEL", icon: Youtube },
 ];
 
