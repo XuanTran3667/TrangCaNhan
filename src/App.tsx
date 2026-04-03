@@ -70,7 +70,7 @@ export default function App() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-8">
           {/* Logo */}
           <div
-            className="text-3xl tracking-tight text-foreground cursor-pointer drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
+            className="text-3xl tracking-tight text-white/80 cursor-pointer drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
             style={{ fontFamily: "'Instrument Serif', serif" }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
@@ -81,31 +81,31 @@ export default function App() {
           <div className="hidden items-center gap-8 md:flex">
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="text-sm font-medium text-foreground transition-colors"
+              className="text-sm font-medium text-white/80 transition-colors"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("studio")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
             >
               Studio
             </button>
             <button
               onClick={() => scrollToSection("about")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection("journal")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
             >
               Journal
             </button>
             <button
               onClick={() => scrollToSection("reach-us")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-foreground"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
             >
               Reach Us
             </button>
@@ -114,7 +114,7 @@ export default function App() {
           {/* CTA Button */}
           <button 
             onClick={() => scrollToSection("reach-us")}
-            className="liquid-glass rounded-full px-6 py-2.5 text-sm font-medium text-foreground transition-transform hover:scale-[1.03]"
+            className="liquid-glass rounded-full px-6 py-2.5 text-sm font-medium text-white/80 transition-transform hover:scale-[1.03]"
           >
             Begin Journey
           </button>
@@ -125,7 +125,7 @@ export default function App() {
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center">
         <div className="mx-auto max-w-7xl">
           <h1
-            className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-foreground sm:text-7xl md:text-8xl"
+            className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-white/80 sm:text-7xl md:text-8xl"
             style={{ fontFamily: "'Instrument Serif', serif" }}
           >
             Xuân <em className="not-italic text-muted-foreground">Trần</em> {" "}
@@ -140,7 +140,7 @@ export default function App() {
 
           <button 
             onClick={() => scrollToSection("studio")}
-            className="liquid-glass animate-fade-rise-delay-2 mt-12 cursor-pointer rounded-full px-14 py-5 text-base font-medium text-foreground transition-transform hover:scale-[1.03]"
+            className="liquid-glass animate-fade-rise-delay-2 mt-12 cursor-pointer rounded-full px-14 py-5 text-base font-medium text-white/80 transition-transform hover:scale-[1.03]"
           >
             Explore Work
           </button>
@@ -159,7 +159,7 @@ export default function App() {
                 A collection of digital artifacts, interfaces, and experiments crafted with precision and intent.
               </p>
             </div>
-            <button className="flex items-center gap-2 text-sm font-medium text-foreground hover:underline">
+            <button className="flex items-center gap-2 text-sm font-medium text-white/80 hover:underline">
               View all projects <ArrowRight size={16} />
             </button>
           </div>
@@ -255,10 +255,10 @@ export default function App() {
                 </p>
               </div>
               <div className="mt-10 flex gap-6">
-                <a href="https://x.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
-                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Github size={20} /></a>
-                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Linkedin size={20} /></a>
-                <a href="https://instagram.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
+                <a href="https://x.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Github size={20} /></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Linkedin size={20} /></a>
+                <a href="https://instagram.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
               </div>
             </div>
           </div>
@@ -315,12 +315,12 @@ export default function App() {
             <div className="mt-12 flex flex-col items-center gap-6">
               <a 
                 href="mailto:hello@velorah.studio" 
-                className="flex items-center gap-3 text-2xl font-medium text-foreground hover:underline"
+                className="flex items-center gap-3 text-2xl font-medium text-white/80 hover:underline"
                 style={{ fontFamily: "'Instrument Serif', serif" }}
               >
                 <Mail size={24} /> hello@velorah.studio
               </a>
-              <button className="liquid-glass mt-4 rounded-full px-12 py-4 text-base font-medium text-foreground transition-transform hover:scale-[1.03]">
+              <button className="liquid-glass mt-4 rounded-full px-12 py-4 text-base font-medium text-white/80 transition-transform hover:scale-[1.03]">
                 Send a Message
               </button>
             </div>
@@ -338,9 +338,9 @@ export default function App() {
             © 2026 Velorah Studio. All rights reserved.
           </div>
           <div className="flex gap-8 text-sm font-medium text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="#" className="hover:text-foreground transition-colors">Cookies</a>
+            <a href="#" className="hover:text-white/80 transition-colors">Privacy</a>
+            <a href="#" className="hover:text-white/80 transition-colors">Terms</a>
+            <a href="#" className="hover:text-white/80 transition-colors">Cookies</a>
           </div>
         </div>
       </footer>
