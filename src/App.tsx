@@ -125,7 +125,7 @@ export default function App() {
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center">
         <div className="mx-auto max-w-7xl">
           <h1
-            className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] bg-gradient-to-r from-white/80 via-transparent to-white/80 bg-clip-text text-transparent mix-blend-overlay sm:text-7xl md:text-8xl"
+            className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] bg-white mix-blend-screen sm:text-7xl md:text-8xl"
             style={{ fontFamily: "'Instrument Serif', serif" }}
           >
             Xuân Trần {" "}
