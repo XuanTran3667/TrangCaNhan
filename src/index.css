@@ -187,3 +187,22 @@ body {
     @apply font-sans;
   }
 }
+/* Hiệu ứng Pha lê Siêu Trong (Ultra-Clear Crystal) */
+.crystal-text {
+  color: transparent; /* Làm rỗng ruột chữ hoàn toàn */
+  
+  /* Giảm độ nhòe xuống mức tối thiểu để nhìn rõ chi tiết video bên dưới */
+  backdrop-filter: blur(1.5px) saturate(160%); 
+  -webkit-backdrop-filter: blur(1.5px) saturate(160%);
+  
+  /* Tạo viền phản chiếu ánh sáng cực mỏng (High-Gloss Edge) */
+  text-shadow: 
+    0.5px 0.5px 1px rgba(255, 255, 255, 0.9), /* Điểm sáng chói ở rìa */
+    -0.5px -0.5px 1px rgba(0, 0, 0, 0.1);    /* Bóng đổ rất nhẹ để tách khối */
+    
+  /* Viền chữ mỏng như sợi tóc để giữ dáng chữ không bị lem */
+  -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.3);
+  
+  /* Chế độ hòa trộn giúp chữ rực rỡ theo màu của video */
+  mix-blend-mode: color-dodge; 
+}
