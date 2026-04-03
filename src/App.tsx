@@ -122,8 +122,8 @@ export default function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center">
-        <div className="mx-auto max-w-7xl">
+      <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center isolate-auto">
+        <div className="mx-auto max-w-7xl isolate-auto">
           <h1 
   className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-white mix-blend-difference"
   style={{ fontFamily: "'Instrument Serif', serif" }}
