@@ -125,8 +125,8 @@ export default function App() {
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center isolate-auto">
         <div className="mx-auto max-w-7xl isolate-auto">
           <h1 
-             className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] bg-gradient-to-r from-white/80 via-transparent to-white/80 ..."
-               style={{ fontFamily: "'Instrument Serif', serif" }}
+            className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] bg-gradient-to-br from-white via-cyan-100 to-amber-200 bg-clip-text text-transparent sm:text-7xl md:text-8xl drop-shadow-[0_5px_15px_rgba(0,0,0,0.8)]"
+            style={{ fontFamily: "'Instrument Serif', serif" }}
           >
              Xuân Trần {" "}
             <em className="not-italic text-white/70"></em>
