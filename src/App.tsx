@@ -46,7 +46,7 @@ export default function App() {
             loop
             muted
             playsInline
-            className="h-full w-full object-cover opacity-50 scale-105 transition-opacity duration-1000"
+            className="h-full w-full object-cover opacity-100 scale-105 transition-opacity duration-1000"
           >
             <source src={backgroundUrl} type="video/mp4" />
           </video>
@@ -54,12 +54,11 @@ export default function App() {
           <img
             src={backgroundUrl}
             alt="Cinematic Background"
-            className="h-full w-full object-cover opacity-60 scale-105 transition-opacity duration-1000"
+            className="h-full w-full object-cover opacity-100 scale-105 transition-opacity duration-1000"
             referrerPolicy="no-referrer"
           />
         )}
-        {/* Cinematic Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-background/40 to-background" />
+        
       </div>
 
       {/* Navigation Bar */}
