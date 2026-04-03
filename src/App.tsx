@@ -152,8 +152,8 @@ export default function App() {
         <div className="mx-auto max-w-7xl">
           <div className="mb-16 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
-              <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-                The <em className="not-italic text-white/70">Studio</em>
+              <h2 className="text-4xl font-normal tracking-tight md:text-6xl text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
+                The <em className="not-italic">Studio</em>
               </h2>
               <p className="mt-4 max-w-md text-white/70">
                 A collection of digital artifacts, interfaces, and experiments crafted with precision and intent.
@@ -240,8 +240,8 @@ export default function App() {
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
             </div>
             <div>
-              <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-                The <em className="not-italic text-white/70">Philosophy</em>
+              <h2 className="text-4xl font-normal tracking-tight md:text-6xl text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
+                The <em className="not-italic">Philosophy</em>
               </h2>
               <div className="mt-8 space-y-6 text-lg text-white/70 leading-relaxed">
                 <p>
@@ -269,8 +269,8 @@ export default function App() {
       <section id="journal" className="relative z-10 px-8 py-32">
         <div className="mx-auto max-w-7xl">
           <div className="mb-16 text-center">
-            <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-              The <em className="not-italic text-white/70">Journal</em>
+            <h2 className="text-4xl font-normal tracking-tight md:text-6xl text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
+              The <em className="not-italic">Journal</em>
             </h2>
             <p className="mt-4 mx-auto max-w-md text-white/70">
               Occasional thoughts on design, philosophy, and the art of quiet rebellion.
@@ -306,8 +306,8 @@ export default function App() {
       <section id="reach-us" className="relative z-10 px-8 py-32">
         <div className="mx-auto max-w-3xl text-center">
           <div className="liquid-glass p-12 md:p-20 rounded-[40px]">
-            <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-              Start a <em className="not-italic text-white/70">Conversation</em>
+            <h2 className="text-4xl font-normal tracking-tight md:text-6xl text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
+              Start a <em className="not-italic">Conversation</em>
             </h2>
             <p className="mt-6 text-lg text-white/70">
               Have a project in mind or just want to say hello? I'm always open to new ideas and collaborations.
@@ -331,7 +331,7 @@ export default function App() {
       {/* Footer */}
       <footer className="relative z-10 border-t border-white/5 px-8 py-12">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 md:flex-row">
-          <div className="text-2xl tracking-tight" style={{ fontFamily: "'Instrument Serif', serif" }}>
+          <h2 className="text-2xl tracking-tight text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Xuân Trần<sup className="text-xs">®</sup>
           </div>
           <div className="text-sm text-white/70">
