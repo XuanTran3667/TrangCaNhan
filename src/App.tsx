@@ -58,7 +58,7 @@ export default function App() {
             referrerPolicy="no-referrer"
           />
         )}
-        
+        <div className="absolute inset-0 bg-black/20" />
       </div>
 
       {/* Navigation Bar */}
@@ -70,7 +70,7 @@ export default function App() {
         <div className="mx-auto flex max-w-7xl items-center justify-between px-8">
           {/* Logo */}
           <div
-            className="text-3xl tracking-tight text-foreground cursor-pointer"
+            className="text-3xl tracking-tight text-foreground cursor-pointer drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
             style={{ fontFamily: "'Instrument Serif', serif" }}
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
           >
