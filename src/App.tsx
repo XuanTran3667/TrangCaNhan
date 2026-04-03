@@ -81,31 +81,31 @@ export default function App() {
           <div className="hidden items-center gap-8 md:flex">
             <button
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-              className="text-sm font-medium text-white/80 transition-colors"
+              className="text-sm font-medium text-white text-white/80 transition-colors"
             >
               Home
             </button>
             <button
               onClick={() => scrollToSection("studio")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
+              className="text-sm font-medium text-white text-white/70 transition-colors hover:text-white/80"
             >
               Studio
             </button>
             <button
               onClick={() => scrollToSection("about")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
+              className="text-sm font-medium text-white text-white/70 transition-colors hover:text-white/80"
             >
               About
             </button>
             <button
               onClick={() => scrollToSection("journal")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
+              className="text-sm font-medium text-white text-white/70 transition-colors hover:text-white/80"
             >
               Journal
             </button>
             <button
               onClick={() => scrollToSection("reach-us")}
-              className="text-sm font-medium text-muted-foreground transition-colors hover:text-white/80"
+              className="text-sm font-medium text-white text-white/70 transition-colors hover:text-white/80"
             >
               Reach Us
             </button>
@@ -114,7 +114,7 @@ export default function App() {
           {/* CTA Button */}
           <button 
             onClick={() => scrollToSection("reach-us")}
-            className="liquid-glass rounded-full px-6 py-2.5 text-sm font-medium text-white/80 transition-transform hover:scale-[1.03]"
+            className="liquid-glass rounded-full px-6 py-2.5 text-sm font-medium text-white text-white/80 transition-transform hover:scale-[1.03]"
           >
             Begin Journey
           </button>
@@ -128,11 +128,11 @@ export default function App() {
             className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] text-white/80 sm:text-7xl md:text-8xl"
             style={{ fontFamily: "'Instrument Serif', serif" }}
           >
-            Xuân <em className="not-italic text-muted-foreground">Trần</em> {" "}
-            <em className="not-italic text-muted-foreground"></em>
+            Xuân <em className="not-italic text-white/70">Trần</em> {" "}
+            <em className="not-italic text-white/70"></em>
           </h1>
 
-          <p className="animate-fade-rise-delay mx-auto mt-8 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+          <p className="animate-fade-rise-delay mx-auto mt-8 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
             We're designing tools for deep thinkers, bold creators, and quiet
             rebels. Amid the chaos, we build digital spaces for sharp focus and
             inspired work.
@@ -140,7 +140,7 @@ export default function App() {
 
           <button 
             onClick={() => scrollToSection("studio")}
-            className="liquid-glass animate-fade-rise-delay-2 mt-12 cursor-pointer rounded-full px-14 py-5 text-base font-medium text-white/80 transition-transform hover:scale-[1.03]"
+            className="liquid-glass animate-fade-rise-delay-2 mt-12 cursor-pointer rounded-full px-14 py-5 text-base font-medium text-white text-white/80 transition-transform hover:scale-[1.03]"
           >
             Explore Work
           </button>
@@ -153,13 +153,13 @@ export default function App() {
           <div className="mb-16 flex flex-col items-start justify-between gap-4 md:flex-row md:items-end">
             <div>
               <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-                The <em className="not-italic text-muted-foreground">Studio</em>
+                The <em className="not-italic text-white/70">Studio</em>
               </h2>
-              <p className="mt-4 max-w-md text-muted-foreground">
+              <p className="mt-4 max-w-md text-white/70">
                 A collection of digital artifacts, interfaces, and experiments crafted with precision and intent.
               </p>
             </div>
-            <button className="flex items-center gap-2 text-sm font-medium text-white/80 hover:underline">
+            <button className="flex items-center gap-2 text-sm font-medium text-white text-white/80 hover:underline">
               View all projects <ArrowRight size={16} />
             </button>
           </div>
@@ -212,11 +212,11 @@ export default function App() {
                 </div>
                 <div className="p-8">
                   <div className="flex items-center justify-between">
-                    <span className="text-xs font-medium uppercase tracking-widest text-muted-foreground">{project.category}</span>
-                    <ExternalLink size={16} className="text-muted-foreground opacity-0 transition-opacity group-hover:opacity-100" />
+                    <span className="text-xs font-medium text-white uppercase tracking-widest text-white/70">{project.category}</span>
+                    <ExternalLink size={16} className="text-white/70 opacity-0 transition-opacity group-hover:opacity-100" />
                   </div>
-                  <h3 className="mt-2 text-2xl font-medium" style={{ fontFamily: "'Instrument Serif', serif" }}>{project.title}</h3>
-                  <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                  <h3 className="mt-2 text-2xl font-medium text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>{project.title}</h3>
+                  <p className="mt-2 text-sm text-white/70 leading-relaxed">
                     {project.description}
                   </p>
                 </div>
@@ -241,9 +241,9 @@ export default function App() {
             </div>
             <div>
               <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-                The <em className="not-italic text-muted-foreground">Philosophy</em>
+                The <em className="not-italic text-white/70">Philosophy</em>
               </h2>
-              <div className="mt-8 space-y-6 text-lg text-muted-foreground leading-relaxed">
+              <div className="mt-8 space-y-6 text-lg text-white/70 leading-relaxed">
                 <p>
                   I believe that technology should be a quiet companion, not a loud distraction. In an era of infinite scrolls and constant pings, I build digital sanctuaries.
                 </p>
@@ -255,10 +255,10 @@ export default function App() {
                 </p>
               </div>
               <div className="mt-10 flex gap-6">
-                <a href="https://x.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Twitter size={20} /></a>
-                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Github size={20} /></a>
-                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Linkedin size={20} /></a>
-                <a href="https://instagram.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-muted-foreground transition-colors"><Instagram size={20} /></a>
+                <a href="https://x.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white/70 transition-colors"><Twitter size={20} /></a>
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white/70 transition-colors"><Github size={20} /></a>
+                <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white/70 transition-colors"><Linkedin size={20} /></a>
+                <a href="https://instagram.com/xuantran3667" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-white/70 transition-colors"><Instagram size={20} /></a>
               </div>
             </div>
           </div>
@@ -270,9 +270,9 @@ export default function App() {
         <div className="mx-auto max-w-7xl">
           <div className="mb-16 text-center">
             <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-              The <em className="not-italic text-muted-foreground">Journal</em>
+              The <em className="not-italic text-white/70">Journal</em>
             </h2>
-            <p className="mt-4 mx-auto max-w-md text-muted-foreground">
+            <p className="mt-4 mx-auto max-w-md text-white/70">
               Occasional thoughts on design, philosophy, and the art of quiet rebellion.
             </p>
           </div>
@@ -292,10 +292,10 @@ export default function App() {
                 className="group flex items-center justify-between border-b border-white/10 py-8 transition-colors hover:bg-white/[0.02] px-4 rounded-xl cursor-pointer"
               >
                 <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-12">
-                  <span className="text-xs font-mono text-muted-foreground uppercase tracking-widest">{post.date}</span>
-                  <h3 className="text-xl md:text-2xl font-medium group-hover:translate-x-2 transition-transform duration-300" style={{ fontFamily: "'Instrument Serif', serif" }}>{post.title}</h3>
+                  <span className="text-xs font-mono text-white/70 uppercase tracking-widest">{post.date}</span>
+                  <h3 className="text-xl md:text-2xl font-medium text-white group-hover:translate-x-2 transition-transform duration-300" style={{ fontFamily: "'Instrument Serif', serif" }}>{post.title}</h3>
                 </div>
-                <ArrowRight size={20} className="text-muted-foreground opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1" />
+                <ArrowRight size={20} className="text-white/70 opacity-0 group-hover:opacity-100 transition-all group-hover:translate-x-1" />
               </a>
             ))}
           </div>
@@ -307,20 +307,20 @@ export default function App() {
         <div className="mx-auto max-w-3xl text-center">
           <div className="liquid-glass p-12 md:p-20 rounded-[40px]">
             <h2 className="text-4xl font-normal tracking-tight md:text-6xl" style={{ fontFamily: "'Instrument Serif', serif" }}>
-              Start a <em className="not-italic text-muted-foreground">Conversation</em>
+              Start a <em className="not-italic text-white/70">Conversation</em>
             </h2>
-            <p className="mt-6 text-lg text-muted-foreground">
+            <p className="mt-6 text-lg text-white/70">
               Have a project in mind or just want to say hello? I'm always open to new ideas and collaborations.
             </p>
             <div className="mt-12 flex flex-col items-center gap-6">
               <a 
                 href="mailto:hello@velorah.studio" 
-                className="flex items-center gap-3 text-2xl font-medium text-white/80 hover:underline"
+                className="flex items-center gap-3 text-2xl font-medium text-white text-white/80 hover:underline"
                 style={{ fontFamily: "'Instrument Serif', serif" }}
               >
                 <Mail size={24} /> hello@velorah.studio
               </a>
-              <button className="liquid-glass mt-4 rounded-full px-12 py-4 text-base font-medium text-white/80 transition-transform hover:scale-[1.03]">
+              <button className="liquid-glass mt-4 rounded-full px-12 py-4 text-base font-medium text-white text-white/80 transition-transform hover:scale-[1.03]">
                 Send a Message
               </button>
             </div>
@@ -334,10 +334,10 @@ export default function App() {
           <div className="text-2xl tracking-tight" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Xuân Trần<sup className="text-xs">®</sup>
           </div>
-          <div className="text-sm text-muted-foreground">
+          <div className="text-sm text-white/70">
             © 2026 Velorah Studio. All rights reserved.
           </div>
-          <div className="flex gap-8 text-sm font-medium text-muted-foreground">
+          <div className="flex gap-8 text-sm font-medium text-white text-white/70">
             <a href="#" className="hover:text-white/80 transition-colors">Privacy</a>
             <a href="#" className="hover:text-white/80 transition-colors">Terms</a>
             <a href="#" className="hover:text-white/80 transition-colors">Cookies</a>
