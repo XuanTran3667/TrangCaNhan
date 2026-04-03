@@ -187,3 +187,21 @@ body {
     @apply font-sans;
   }
 }
+/* Hiệu ứng Pha lê (Crystal) */
+.crystal-text {
+  color: rgba(255, 255, 255, 0.1); /* Chữ gần như trong suốt */
+  backdrop-filter: blur(4px); /* Làm nhòe nhẹ nền phía sau bên trong chữ */
+  -webkit-backdrop-filter: blur(4px);
+  
+  /* Tạo khối 3D bằng đổ bóng nhiều lớp */
+  text-shadow: 
+    -1px -1px 0px rgba(255, 255, 255, 0.5), /* Viền sáng trên */
+    1px 1px 0px rgba(0, 0, 0, 0.3),       /* Viền tối dưới */
+    0px 0px 10px rgba(255, 255, 255, 0.2); /* Ánh hào quang nhẹ */
+    
+  /* Viền chữ sắc nét như thủy tinh */
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.4);
+  
+  /* Hòa trộn để lấy màu từ video nền */
+  mix-blend-mode: overlay;
+}
