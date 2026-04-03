@@ -31,7 +31,7 @@ export default function App() {
 
   // --- BACKGROUND CONFIGURATION ---
   // You can use a URL for an image (jpg, png, gif) or a video (mp4, webm).
-  const backgroundUrl = "https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=2000&auto=format&fit=crop"; 
+  const backgroundUrl = "/TrangCaNhan/bg.mp4"; 
   // Example Video URL: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwlXH07IWA1P/hf_20260314_131748_f2ca2a28-fed7-44c8-b9a9-bd9acdd5ec31.mp4"
   
   const isVideo = backgroundUrl.match(/\.(mp4|webm|ogg|mov)$/i) || backgroundUrl.includes("video");
