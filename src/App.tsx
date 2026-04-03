@@ -331,7 +331,7 @@ export default function App() {
       {/* Footer */}
       <footer className="relative z-10 border-t border-white/5 px-8 py-12">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-8 md:flex-row">
-          <h2 className="text-2xl tracking-tight text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
+          <div className="text-2xl tracking-tight text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
             Xuân Trần<sup className="text-xs">®</sup>
           </div>
           <div className="text-sm text-white/70">
