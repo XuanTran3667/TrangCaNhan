@@ -129,7 +129,7 @@ export default function App() {
             style="font-family: Imbue, serif;"
           >
              Xuân Trần {" "}
-            <em className="italic text-white/70"></em>
+            <em className="not-italic text-white/70"></em>
           </h1>
 
           <p className="animate-fade-rise-delay mx-auto mt-8 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
