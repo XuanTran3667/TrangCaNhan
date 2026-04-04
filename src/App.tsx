@@ -125,11 +125,11 @@ export default function App() {
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center isolate-auto">
         <div className="mx-auto max-w-7xl isolate-auto">
           <h1 
-            className="animate-fade-rise text-5xl font-normal leading-[0.95] tracking-[-2.46px] crystal-text sm:text-7xl md:text-8xl"
-            style={{ fontFamily: "'Instrument Serif', serif" }}
+            class="animate-fade-rise text-6xl sm:text-8xl md:text-[12rem] leading-[0.95] tracking-tight max-w-full font-normal text-white mix-blend-difference translate-y-[20px] sm:translate-y-0 will-change-transform transform-gpu px-4"
+            style="font-family: Imbue, serif;" }}
           >
              Xuân Trần {" "}
-            <em className="not-italic text-white/70"></em>
+            <em className="italic text-white/70"></em>
           </h1>
 
           <p className="animate-fade-rise-delay mx-auto mt-8 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
