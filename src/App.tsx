@@ -126,7 +126,7 @@ export default function App() {
         <div className="mx-auto max-w-7xl isolate-auto">
           <h1 
             className="animate-fade-rise text-6xl sm:text-8xl md:text-[12rem] leading-[0.95] tracking-tight max-w-full font-normal text-white mix-blend-difference translate-y-[20px] sm:translate-y-0 will-change-transform transform-gpu px-4"
-            style="font-family: Imbue, serif;" }}
+            style="font-family: Imbue, serif;"
           >
              Xuân Trần {" "}
             <em className="italic text-white/70"></em>
