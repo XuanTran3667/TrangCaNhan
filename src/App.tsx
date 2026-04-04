@@ -125,7 +125,7 @@ export default function App() {
       <section className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 pt-32 pb-40 text-center isolate-auto">
         <div className="mx-auto max-w-7xl isolate-auto">
           <h1 
-            class="animate-fade-rise text-6xl sm:text-8xl md:text-[12rem] leading-[0.95] tracking-tight max-w-full font-normal text-white mix-blend-difference translate-y-[20px] sm:translate-y-0 will-change-transform transform-gpu px-4"
+            classname="animate-fade-rise text-6xl sm:text-8xl md:text-[12rem] leading-[0.95] tracking-tight max-w-full font-normal text-white mix-blend-difference translate-y-[20px] sm:translate-y-0 will-change-transform transform-gpu px-4"
             style="font-family: Imbue, serif;" }}
           >
              Xuân Trần {" "}
