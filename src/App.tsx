@@ -232,7 +232,7 @@ export default function App() {
           <div className="grid grid-cols-1 gap-16 md:grid-cols-2 items-center">
             <div className="relative aspect-square overflow-hidden rounded-3xl border border-white/10">
               <img 
-                src="https://www.pinterest.com/pin/365987907239448626/" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
+                src="/TrangCaNhan/nn.jpg" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
                 className="h-full w-full object-cover grayscale opacity-80"
                 referrerPolicy="no-referrer"
@@ -318,7 +318,7 @@ export default function App() {
                 className="flex items-center gap-3 text-2xl font-medium text-white text-white/80 hover:underline"
                 style={{ fontFamily: "'Instrument Serif', serif" }}
               >
-                <Mail size={24} /> hello@velorah.studio
+                <Mail size={24} /> ozy3667@gmail.com
               </a>
               <button className="liquid-glass mt-4 rounded-full px-12 py-4 text-base font-medium text-white text-white/80 transition-transform hover:scale-[1.03]">
                 Send a Message
@@ -335,7 +335,7 @@ export default function App() {
             Xuân Trần<sup className="text-xs">®</sup>
           </div>
           <div className="text-sm text-white/70">
-            © 2026 Velorah Studio. All rights reserved.
+            © 2026 Thiết kể bởi Xuân Trường.
           </div>
           <div className="flex gap-8 text-sm font-medium text-white text-white/70">
             <a href="#" className="hover:text-white/80 transition-colors">Privacy</a>
