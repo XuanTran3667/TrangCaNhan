@@ -133,8 +133,8 @@ export default function App() {
           </h1>
 
           <p className="animate-fade-rise-delay mx-auto mt-8 max-w-2xl text-base leading-relaxed text-white/70 sm:text-lg">
-            We're designing tools for deep thinkers, bold creators, and quiet
-            rebels. Amid the chaos, we build digital spaces for sharp focus and
+            Dedicated to crafting tools for deep thinkers, bold creators, and quiet             
+            rebels. Amidst the chaos, my mission is to build digital spaces for sharp focus and
             inspired work.
           </p>
 
@@ -237,7 +237,7 @@ export default function App() {
               <img 
                 src="/TrangCaNhan/nn.jpg" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover brightness-110 contrast-110 drop-shadow-xl transition-all duration-300 ease-in-out"
                 referrerPolicy="no-referrer"
               />
               
