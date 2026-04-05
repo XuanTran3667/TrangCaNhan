@@ -232,7 +232,7 @@ export default function App() {
           <div className="grid grid-cols-1 gap-16 md:grid-cols-2 items-center">
             <div className="relative aspect-square overflow-hidden rounded-3xl border border-white/10">
               <img 
-                src="https://picsum.photos/seed/profile/1000/1000" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
+                src="https://www.pinterest.com/pin/365987907239448626/" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
                 className="h-full w-full object-cover grayscale opacity-80"
                 referrerPolicy="no-referrer"
