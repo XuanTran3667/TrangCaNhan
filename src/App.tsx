@@ -190,7 +190,7 @@ export default function App() {
               {
                 title: "Vortex",
                 category: "Data Visualization",
-                image: "/TrangCaNhan/no2.mp4", // REPLACE_WITH_PROJECT_IMAGE_4
+                video: "/TrangCaNhan/no2.mp4", // REPLACE_WITH_PROJECT_IMAGE_4
                 description: "Visualizing the flow of global information in real-time.",
                 link: "https://your-project-link-4.com" // REPLACE_WITH_PROJECT_LINK_4
               }
@@ -234,7 +234,7 @@ export default function App() {
               <img 
                 src="/TrangCaNhan/nn.jpg" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
-                className="h-full w-full object-cover opacity-100"
+                className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
