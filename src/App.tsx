@@ -190,7 +190,7 @@ export default function App() {
               {
                 title: "Vortex",
                 category: "Data Visualization",
-                video: "/TrangCaNhan/no2.mp4", // REPLACE_WITH_PROJECT_IMAGE_4
+                image: "/TrangCaNhan/no2.mp4", // REPLACE_WITH_PROJECT_IMAGE_4
                 description: "Visualizing the flow of global information in real-time.",
                 link: "https://your-project-link-4.com" // REPLACE_WITH_PROJECT_LINK_4
               }
@@ -203,10 +203,14 @@ export default function App() {
                 className="group relative block overflow-hidden rounded-3xl bg-white/5 border border-white/10 transition-all hover:border-white/20"
               >
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img 
+                  <video 
                     src={project.image} 
                     alt={project.title} 
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
                     referrerPolicy="no-referrer"
                   />
                 </div>
