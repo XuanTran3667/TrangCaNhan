@@ -169,28 +169,28 @@ export default function App() {
               {
                 title: "Aether OS",
                 category: "Interface Design",
-                image: "https://picsum.photos/seed/aether/1200/800", // REPLACE_WITH_PROJECT_IMAGE_1
+                image: "/TrangCaNhan/no0.mp4", // REPLACE_WITH_PROJECT_IMAGE_1
                 description: "A minimalist operating system concept focused on deep work and cognitive clarity.",
                 link: "https://your-project-link-1.com" // REPLACE_WITH_PROJECT_LINK_1
               },
               {
                 title: "Lumina",
                 category: "Productivity",
-                image: "https://picsum.photos/seed/lumina/1200/800", // REPLACE_WITH_PROJECT_IMAGE_2
+                image: "/TrangCaNhan/no1.mp4", // REPLACE_WITH_PROJECT_IMAGE_2
                 description: "An AI-powered writing assistant that helps you find your voice in the noise.",
                 link: "https://your-project-link-2.com" // REPLACE_WITH_PROJECT_LINK_2
               },
               {
                 title: "Silentium",
                 category: "Web Experience",
-                image: "https://picsum.photos/seed/silent/1200/800", // REPLACE_WITH_PROJECT_IMAGE_3
+                image: "/TrangCaNhan/no3.mp4", // REPLACE_WITH_PROJECT_IMAGE_3
                 description: "An immersive audio-visual journey through the world's quietest places.",
                 link: "https://your-project-link-3.com" // REPLACE_WITH_PROJECT_LINK_3
               },
               {
                 title: "Vortex",
                 category: "Data Visualization",
-                image: "https://picsum.photos/seed/vortex/1200/800", // REPLACE_WITH_PROJECT_IMAGE_4
+                image: "/TrangCaNhan/no2.mp4", // REPLACE_WITH_PROJECT_IMAGE_4
                 description: "Visualizing the flow of global information in real-time.",
                 link: "https://your-project-link-4.com" // REPLACE_WITH_PROJECT_LINK_4
               }
@@ -234,7 +234,7 @@ export default function App() {
               <img 
                 src="/TrangCaNhan/nn.jpg" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
-                className="h-full w-full object-cover grayscale opacity-80"
+                className="h-full w-full object-cover opacity-80"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
