@@ -240,7 +240,7 @@ export default function App() {
                 className="h-full w-full object-cover"
                 referrerPolicy="no-referrer"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+              
             </div>
             <div>
               <h2 className="text-4xl font-normal tracking-tight md:text-6xl text-white" style={{ fontFamily: "'Instrument Serif', serif" }}>
