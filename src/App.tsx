@@ -234,7 +234,7 @@ export default function App() {
               <img 
                 src="/TrangCaNhan/nn.jpg" // REPLACE_WITH_YOUR_PROFILE_IMAGE_URL
                 alt="About Velorah" 
-                className="h-full w-full object-cover opacity-80"
+                className="h-full w-full object-cover opacity-100"
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
