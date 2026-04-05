@@ -205,13 +205,12 @@ export default function App() {
                 <div className="aspect-[16/10] overflow-hidden">
                   <video 
                     src={project.image} 
-                    alt={project.title} 
                     className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                     autoPlay
                     loop
                     muted
                     playsInline
-                    referrerPolicy="no-referrer"
+                    
                   />
                 </div>
                 <div className="p-8">
