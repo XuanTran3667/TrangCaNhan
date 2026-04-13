@@ -319,7 +319,7 @@ export default function App() {
             </p>
             <div className="mt-12 flex flex-col items-center gap-6">
               <a 
-                href="mailto:hello@velorah.studio" 
+                href="mailto:ozy3667@gmail.com" 
                 className="flex items-center gap-3 text-2xl font-medium text-white text-white/80 hover:underline"
                 style={{ fontFamily: "'Instrument Serif', serif" }}
               >
